@@ -1,0 +1,83 @@
+.ct-section-stretched {
+	width: var(--has-wide, var(--full-width));
+	margin-left: var(--has-wide, var(--full-width-alignment));
+	margin-right: var(--has-wide, var(--full-width-alignment));
+
+	&.elementor-section-boxed > .elementor-container {
+		width: var(--block-width, var(--container-width));
+	}
+}
+
+// all sections
+section.elementor-section.elementor-section-boxed {
+	> .elementor-container {
+		max-width: var(--block-max-width, var(--container-max-width));
+	}
+}
+
+// items spacing
+[data-elementor-type] {
+	p:last-child {
+		--contentSpacing: 0px;
+	}
+}
+
+// elementor column alignment fix
+.ct-columns-alignment-fix {
+	> .elementor-column-gap-default > .elementor-row {
+		width: calc(100% + 20px);
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+
+	> .elementor-column-gap-narrow > .elementor-row {
+		width: calc(100% + 10px);
+		margin-left: -5px;
+		margin-right: -5px;
+	}
+
+	> .elementor-column-gap-extended > .elementor-row {
+		width: calc(100% + 30px);
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	> .elementor-column-gap-wide > .elementor-row {
+		width: calc(100% + 40px);
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+
+	> .elementor-column-gap-wider > .elementor-row {
+		width: calc(100% + 60px);
+		margin-left: -30px;
+		margin-right: -30px;
+	}
+}
+
+// forms
+.elementor-select-wrapper select {
+	background-image: none;
+}
+
+// seach form
+.elementor-search-form__input {
+	--form-field-height: auto;
+}
+
+.elementor-search-form__submit {
+	--buttonShadow: none;
+	--buttonTransform: none;
+}
+
+// colors
+:root {
+	--e-global-color-blocksy_palette_1: var(--paletteColor1);
+	--e-global-color-blocksy_palette_2: var(--paletteColor2);
+	--e-global-color-blocksy_palette_3: var(--paletteColor3);
+	--e-global-color-blocksy_palette_4: var(--paletteColor4);
+	--e-global-color-blocksy_palette_5: var(--paletteColor5);
+	--e-global-color-blocksy_palette_6: var(--paletteColor6);
+	--e-global-color-blocksy_palette_7: var(--paletteColor7);
+	--e-global-color-blocksy_palette_8: var(--paletteColor8);
+}

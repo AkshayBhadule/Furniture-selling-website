@@ -1,0 +1,11 @@
+.ct-container > article {
+	--block-width: var(--has-wide, var(--container-width));
+	--block-max-width: var(--has-wide, var(--container-max-width));
+	--block-wide-max-width: var(--has-wide, calc(var(--container-max-width) + var(--wide-offset) * 2));
+}
+
+.ct-container-narrow > article {
+	--block-width: var(--has-wide, var(--container-width));
+	--block-max-width: var(--has-wide, var(--narrow-container-max-width));
+	--block-wide-max-width: var(--has-wide, calc(var(--narrow-container-max-width) + var(--wide-offset) * 2));
+}

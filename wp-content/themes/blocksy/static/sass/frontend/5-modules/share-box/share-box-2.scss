@@ -1,0 +1,18 @@
+.ct-share-box[data-type="type-2"] {
+
+	> div {
+		display: flex;
+		flex-wrap: wrap;
+		margin: -5px -5px 0 -5px;
+	}
+
+	a {
+		margin: 5px 5px 0 5px;
+	}
+
+	.ct-icon-container {
+		padding: 10px 25px;
+		--border-radius: 3px;
+		--icon-container-size: initial;
+	}
+}

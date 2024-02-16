@@ -1,0 +1,31 @@
+// important 
+.entry-card {
+	.ct-image-container img {
+		height: 100%;
+	}
+}
+
+// boundless image
+[data-cards="boxed"] {
+	.boundless-image {
+		width: initial;
+		margin-left: calc(var(--card-inner-spacing, 30px) * -1);
+		margin-right: calc(var(--card-inner-spacing, 30px) * -1);
+
+		&:first-child {
+			margin-top: calc(var(--card-inner-spacing, 30px) * -1);
+		}
+
+		&:last-child {
+			margin-bottom: calc(var(--card-inner-spacing, 30px) * -1);
+		}
+	}
+}
+
+// Featured image border radius
+[data-cards="simple"],
+[data-layout="gutenberg"] {
+	.ct-image-container {
+		border-radius: var(--borderRadius, 0px);
+	}
+}

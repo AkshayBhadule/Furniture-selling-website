@@ -1,0 +1,32 @@
+2024-02-12T15:05:58+00:00 CRITICAL Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\options.php:163
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\options.php(163): array_keys(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): UpdraftPlus_Options::admin_init('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin.php(175): do_action('admin_init')
+#5 C:\xampp\htdocs\wordpress\wp-admin\options-general.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\options.php on line 163
+
+2024-02-12T15:06:02+00:00 CRITICAL Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\options.php:163
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\options.php(163): array_keys(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): UpdraftPlus_Options::admin_init('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\options.php on line 163
+
+2024-02-12T15:06:07+00:00 CRITICAL Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\options.php:163
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\options.php(163): array_keys(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): UpdraftPlus_Options::admin_init('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin.php(175): do_action('admin_init')
+#5 C:\xampp\htdocs\wordpress\wp-admin\options-general.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\options.php on line 163
+

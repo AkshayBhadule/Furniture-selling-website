@@ -1,0 +1,9 @@
+.fl-builder-content-primary {
+	margin-bottom: 0;
+}
+
+.fl-row-full-width {
+	width: var(--has-wide, var(--full-width));
+	margin-left: var(--has-wide, var(--full-width-alignment));
+	margin-right: var(--has-wide, var(--full-width-alignment));
+}

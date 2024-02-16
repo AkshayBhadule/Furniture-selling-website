@@ -1,0 +1,547 @@
+0000.005 (0) Opened log file at time: Wed, 14 Feb 2024 15:17:53 +0000 on http://localhost/wordpress
+0000.016 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.56 WP: 6.4.3 PHP: 8.0.12 (apache2handler, Windows NT LAPTOP-N2OMCFEU 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.21-MariaDB WPLANG: en_US Server: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/8.0.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 69.2M | 70M) multisite: N openssl: OpenSSL 1.1.1l  24 Aug 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.019 (0) Free space on disk containing Updraft's temporary directory: 105070.8 MB
+0000.042 (0) Deleting old temporary file: backup_2024-02-12-1504_WORLD_OF_FURNITURE_1dd62300180f-others.zip.list.tmp
+0000.048 (0) Deleting old temporary file: backup_2024-02-12-1504_WORLD_OF_FURNITURE_1dd62300180f-plugins.zip.list.tmp
+0000.053 (0) Deleting old temporary file: backup_2024-02-12-1504_WORLD_OF_FURNITURE_1dd62300180f-themes.zip.list.tmp
+0000.058 (0) Deleting old temporary file: backup_2024-02-12-1504_WORLD_OF_FURNITURE_1dd62300180f-uploads.zip.list.tmp
+0000.068 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.070 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.080 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1707750298, seconds_ago=173575)
+0000.089 (0) Set semaphore last lock (fd) time to 2024-02-14 15:17:53
+0000.092 (0) Semaphore lock (fd) complete
+0000.104 (0) Backup run: resumption=0, nonce=ebd0c8052294, file_nonce=ebd0c8052294 begun at=1707923873 (0s ago), job type=backup
+0000.109 (0) Scheduling a resumption (1) after 300 seconds (1707924173) in case this run gets aborted
+0000.143 (0) Checking if we have a zip executable available
+0000.149 (0) Creation of backups of directories: beginning
+0000.164 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.171 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp (line 263, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0013.100 (0) Total entities for the zip file: 1865 directories, 8603 files (0 skipped as non-modified), 112.4 MB
+0013.105 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3548, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0013.119 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0013.479 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 100 files added (on-disk size: 377.8 KB)
+0013.620 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 200 files added (on-disk size: 377.8 KB)
+0013.749 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 300 files added (on-disk size: 377.8 KB)
+0013.894 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 400 files added (on-disk size: 377.8 KB)
+0014.023 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 500 files added (on-disk size: 377.8 KB)
+0014.184 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 600 files added (on-disk size: 377.8 KB)
+0014.337 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 700 files added (on-disk size: 377.8 KB)
+0014.484 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 800 files added (on-disk size: 377.8 KB)
+0014.527 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 8603 files batched, 826 (827) added so far); re-opening (prior size: 377.8 KB)
+0021.098 (0) A useful amount of data was added after this amount of zip processing: 8.5 s (normalised: 8.5 s, rate: 2998 KB/s)
+0021.237 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 900 files added (on-disk size: 7427.3 KB)
+0021.368 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 1000 files added (on-disk size: 7427.3 KB)
+0021.491 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 1100 files added (on-disk size: 7427.3 KB)
+0021.606 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 1200 files added (on-disk size: 7427.3 KB)
+0021.710 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 1300 files added (on-disk size: 7427.3 KB)
+0021.820 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 1400 files added (on-disk size: 7427.3 KB)
+0021.951 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 1500 files added (on-disk size: 7427.3 KB)
+0022.077 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 1600 files added (on-disk size: 7427.3 KB)
+0022.204 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 1700 files added (on-disk size: 7427.3 KB)
+0022.340 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 1800 files added (on-disk size: 7427.3 KB)
+0022.384 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (20.4 MB, 8603 files batched, 1001 (1828) added so far); re-opening (prior size: 7427.3 KB)
+0027.752 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 1900 files added (on-disk size: 13902.4 KB)
+0027.883 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 2000 files added (on-disk size: 13902.4 KB)
+0028.026 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 2100 files added (on-disk size: 13902.4 KB)
+0028.171 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 2200 files added (on-disk size: 13902.4 KB)
+0028.336 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 2300 files added (on-disk size: 13902.4 KB)
+0028.501 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 2400 files added (on-disk size: 13902.4 KB)
+0028.657 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 2500 files added (on-disk size: 13902.4 KB)
+0028.826 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 2600 files added (on-disk size: 13902.4 KB)
+0028.981 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 2700 files added (on-disk size: 13902.4 KB)
+0029.139 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 2800 files added (on-disk size: 13902.4 KB)
+0029.193 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.5 MB, 8603 files batched, 1001 (2829) added so far); re-opening (prior size: 13902.4 KB)
+0033.303 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 2900 files added (on-disk size: 18036.7 KB)
+0033.448 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 3000 files added (on-disk size: 18036.7 KB)
+0033.609 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 3100 files added (on-disk size: 18036.7 KB)
+0033.754 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 3200 files added (on-disk size: 18036.7 KB)
+0033.926 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 3300 files added (on-disk size: 18036.7 KB)
+0034.089 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 3400 files added (on-disk size: 18036.7 KB)
+0034.258 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 3500 files added (on-disk size: 18036.7 KB)
+0034.423 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 3600 files added (on-disk size: 18036.7 KB)
+0034.582 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 3700 files added (on-disk size: 18036.7 KB)
+0034.709 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 3800 files added (on-disk size: 18036.7 KB)
+0034.747 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.7 MB, 8603 files batched, 1001 (3830) added so far); re-opening (prior size: 18036.7 KB)
+0041.424 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 3900 files added (on-disk size: 23226.2 KB)
+0041.593 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 4000 files added (on-disk size: 23226.2 KB)
+0041.749 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 4100 files added (on-disk size: 23226.2 KB)
+0041.917 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 4200 files added (on-disk size: 23226.2 KB)
+0042.068 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 4300 files added (on-disk size: 23226.2 KB)
+0042.233 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 4400 files added (on-disk size: 23226.2 KB)
+0042.394 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 4500 files added (on-disk size: 23226.2 KB)
+0042.564 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 4600 files added (on-disk size: 23226.2 KB)
+0042.724 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 4700 files added (on-disk size: 23226.2 KB)
+0042.882 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 4800 files added (on-disk size: 23226.2 KB)
+0042.936 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2.6 MB, 8603 files batched, 1001 (4831) added so far); re-opening (prior size: 23226.2 KB)
+0045.399 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 4900 files added (on-disk size: 24544.8 KB)
+0045.574 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 5000 files added (on-disk size: 24544.8 KB)
+0045.747 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 5100 files added (on-disk size: 24544.8 KB)
+0045.906 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 5200 files added (on-disk size: 24544.8 KB)
+0046.086 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 5300 files added (on-disk size: 24544.8 KB)
+0046.248 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 5400 files added (on-disk size: 24544.8 KB)
+0046.419 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 5500 files added (on-disk size: 24544.8 KB)
+0046.579 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 5600 files added (on-disk size: 24544.8 KB)
+0046.747 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 5700 files added (on-disk size: 24544.8 KB)
+0046.928 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 5800 files added (on-disk size: 24544.8 KB)
+0046.985 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13 MB, 8603 files batched, 1001 (5832) added so far); re-opening (prior size: 24544.8 KB)
+0050.924 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 5900 files added (on-disk size: 28406.7 KB)
+0051.059 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 6000 files added (on-disk size: 28406.7 KB)
+0051.233 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 6100 files added (on-disk size: 28406.7 KB)
+0051.370 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 6200 files added (on-disk size: 28406.7 KB)
+0051.524 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 6300 files added (on-disk size: 28406.7 KB)
+0051.664 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 6400 files added (on-disk size: 28406.7 KB)
+0051.769 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 6500 files added (on-disk size: 28406.7 KB)
+0051.931 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 6600 files added (on-disk size: 28406.7 KB)
+0052.091 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 6700 files added (on-disk size: 28406.7 KB)
+0052.260 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 6800 files added (on-disk size: 28406.7 KB)
+0052.320 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10 MB, 8603 files batched, 1001 (6833) added so far); re-opening (prior size: 28406.7 KB)
+0055.766 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 6900 files added (on-disk size: 31315.5 KB)
+0055.962 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 7000 files added (on-disk size: 31315.5 KB)
+0056.147 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 7100 files added (on-disk size: 31315.5 KB)
+0056.348 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 7200 files added (on-disk size: 31315.5 KB)
+0056.533 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 7300 files added (on-disk size: 31315.5 KB)
+0056.725 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 7400 files added (on-disk size: 31315.5 KB)
+0056.909 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 7500 files added (on-disk size: 31315.5 KB)
+0057.104 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 7600 files added (on-disk size: 31315.5 KB)
+0057.269 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 7700 files added (on-disk size: 31315.5 KB)
+0057.443 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 7800 files added (on-disk size: 31315.5 KB)
+0057.497 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.4 MB, 8603 files batched, 1001 (7834) added so far); re-opening (prior size: 31315.5 KB)
+0060.739 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 7900 files added (on-disk size: 33093 KB)
+0061.113 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 8000 files added (on-disk size: 33093 KB)
+0061.571 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 8100 files added (on-disk size: 33093 KB)
+0062.107 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 8200 files added (on-disk size: 33093 KB)
+0062.467 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 8300 files added (on-disk size: 33093 KB)
+0062.559 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.7 MB, 490 (8324) files added so far); re-opening (prior size: 33093 KB)
+0064.832 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 8400 files added (on-disk size: 34199.3 KB)
+0065.384 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 8500 files added (on-disk size: 34199.3 KB)
+0065.906 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip.tmp: 8600 files added (on-disk size: 34199.3 KB)
+0068.668 (0) Created plugins zip (0) - 34502.7 KB in 68.5 s (503.8 KB/s) (sha1: eba60977bf597c7c0a3324fe2edd5b3bf2c1c288, sha256: 062e85cd174dd7a20a069cd60869f7111f90562a628a95b84d377aa0da7ad30b)
+0068.683 (0) Beginning creation of dump of themes (split every: 400 MB)
+0068.689 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-themes.zip.tmp (line 263, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0070.724 (0) Total entities for the zip file: 272 directories, 1487 files (0 skipped as non-modified), 15.8 MB
+0070.727 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3548, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0070.853 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0070.985 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0071.093 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0071.228 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0071.341 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0071.462 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0071.557 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5.1 MB, 683 (683) files added so far); re-opening (prior size: 0 KB)
+0072.812 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-themes.zip.tmp: 700 files added (on-disk size: 2127.4 KB)
+0072.935 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-themes.zip.tmp: 800 files added (on-disk size: 2127.4 KB)
+0073.063 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-themes.zip.tmp: 900 files added (on-disk size: 2127.4 KB)
+0073.181 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-themes.zip.tmp: 1000 files added (on-disk size: 2127.4 KB)
+0073.312 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-themes.zip.tmp: 1100 files added (on-disk size: 2127.4 KB)
+0073.433 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-themes.zip.tmp: 1200 files added (on-disk size: 2127.4 KB)
+0073.557 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-themes.zip.tmp: 1300 files added (on-disk size: 2127.4 KB)
+0073.675 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-themes.zip.tmp: 1400 files added (on-disk size: 2127.4 KB)
+0075.752 (0) Created themes zip (0) - 10337.7 KB in 7.1 s (1465.8 KB/s) (sha1: fa979677cdbc233e6502ff9502f3732f475b15f8, sha256: 228d40766be6b6a0d57f9d4d090965a2f492811481752f1eac336edb4542bffa)
+0075.764 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0075.767 (0) Looking for candidates to backup in: C:\xampp\htdocs\wordpress/wp-content/uploads
+0075.770 (0) finding files: 2020: adding to list (1)
+0075.773 (0) finding files: 2021: adding to list (2)
+0075.776 (0) finding files: 2022: adding to list (3)
+0075.778 (0) finding files: 2024: adding to list (4)
+0075.780 (0) finding files: blocksy: adding to list (5)
+0075.783 (0) finding files: elementor: adding to list (6)
+0075.786 (0) finding files: resized: adding to list (7)
+0075.789 (0) finding files: wc-logs: adding to list (8)
+0075.791 (0) finding files: woocommerce_uploads: adding to list (9)
+0075.794 (0) finding files: wpcf7_uploads: adding to list (10)
+0075.797 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0075.802 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-uploads.zip.tmp (line 263, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0076.549 (0) Total entities for the zip file: 37 directories, 596 files (0 skipped as non-modified), 47.3 MB
+0076.553 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3548, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0076.686 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0076.825 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0076.937 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 596 files batched, 291 (291) added so far); re-opening (prior size: 0 KB)
+0077.568 (0) A useful amount of data was added after this amount of zip processing: 2 s (normalised: 2 s, rate: 12781 KB/s)
+0077.574 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.0112020969391, normalised_time=2.0029786555944, max_time=77.565817117691, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0077.593 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-uploads.zip.tmp: 300 files added (on-disk size: 25751.9 KB)
+0077.743 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-uploads.zip.tmp: 400 files added (on-disk size: 25751.9 KB)
+0077.852 (0) Zip: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-uploads.zip.tmp: 500 files added (on-disk size: 25751.9 KB)
+0080.404 (0) Created uploads zip (0) - 48538.1 KB in 4.6 s (10571.6 KB/s) (sha1: f14df145da35a2f9c707bc03dbd38de0f5af8078, sha256: 6f5196a1dd0347834a679fdeb4c4fea4f1418e4fb6a0d6cd57f95dc74feaedd7)
+0080.416 (0) Beginning backup of other directories found in the content directory (index: 0)
+0080.418 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0080.421 (0) Looking for candidates to backup in: C:\xampp\htdocs\wordpress/wp-content
+0080.424 (0) finding files: index.php: adding to list (1)
+0080.427 (0) finding files: index.php-old: adding to list (2)
+0080.429 (0) finding files: index.php-old-old: adding to list (3)
+0080.431 (0) finding files: index.php-old-old-old: adding to list (4)
+0080.434 (0) finding files: index.php-old-old-old-old: adding to list (5)
+0080.437 (0) finding files: plugins: skipping: this is the plugins directory
+0080.439 (0) finding files: plugins-old: adding to list (6)
+0080.442 (0) finding files: plugins-old-old: adding to list (7)
+0080.445 (0) finding files: plugins-old-old-old: adding to list (8)
+0080.448 (0) finding files: plugins-old-old-old-old: adding to list (9)
+0080.450 (0) finding files: themes: skipping: this is the themes directory
+0080.453 (0) finding files: themes-old: adding to list (10)
+0080.455 (0) finding files: themes-old-old: adding to list (11)
+0080.458 (0) finding files: themes-old-old-old: adding to list (12)
+0080.460 (0) finding files: themes-old-old-old-old: adding to list (13)
+0080.463 (0) finding files: updraft: skipping: this is the updraft directory
+0080.465 (0) finding files: upgrade: skipping: excluded by options
+0080.467 (0) finding files: upgrade-temp-backup: adding to list (14)
+0080.470 (0) finding files: uploads: skipping: this is the uploads directory
+0080.473 (0) finding files: uploads-old: adding to list (15)
+0080.475 (0) finding files: uploads-old-old: adding to list (16)
+0080.478 (0) finding files: uploads-old-old-old: adding to list (17)
+0080.480 (0) finding files: uploads-old-old-old-old: adding to list (18)
+0080.486 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-others.zip.tmp (line 263, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0080.532 (0) Total entities for the zip file: 13 directories, 5 files (0 skipped as non-modified), 0 MB
+0080.535 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3548, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0080.571 (0) Created others zip (0) - 2.1 KB in 0.1 s (28.9 KB/s) (sha1: 6686113f6eac7699f1d65b3351f45ec79c628dc7, sha256: aeaeed0997c7ce45e81ed7d464c4efe4e059f4c50fcb8d3bb001e921b4c13913)
+0080.594 (0) Saving backup status to database (elements: 8)
+0080.602 (0) Beginning creation of database dump (WordPress DB)
+0080.605 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0080.617 (0) PHP event: code E_WARNING: unlink(C:\xampp\htdocs\wordpress/wp-content/updraft/5f7b445e27086e16cbff6e0021f61160.sqltest.tmp): No such file or directory (line 1672, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+0080.723 (0) Table wp_options: Total expected rows (approximate): 505
+0081.183 (0) Table wp_options: Rows added in this batch (next record: 2706): 511 (uncompressed bytes in this segment=3758652) in 0.46 seconds
+0081.211 (0) Table wp_options: finishing file(s) (2, 569.2 KB)
+0081.231 (0) Table wp_users: Total expected rows (approximate): 3
+0081.247 (0) Table wp_users: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1643) in 0.01 seconds
+0081.271 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0081.287 (0) Table wp_usermeta: Total expected rows (approximate): 103
+0081.305 (0) Table wp_usermeta: Rows added in this batch (next record: 140): 103 (uncompressed bytes in this segment=15719) in 0.02 seconds
+0081.327 (0) Table wp_usermeta: finishing file(s) (2, 3.7 KB)
+0081.344 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 3
+0081.360 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 38): 3 (uncompressed bytes in this segment=2981) in 0.01 seconds
+0081.381 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 0.8 KB)
+0081.401 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0081.417 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=630) in 0.01 seconds
+0081.439 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0081.458 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 2
+0081.473 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=704) in 0.01 seconds
+0081.495 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0081.514 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 7
+0081.532 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 97): 7 (uncompressed bytes in this segment=1420) in 0.01 seconds
+0081.557 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.5 KB)
+0081.594 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0081.609 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=702) in 0.01 seconds
+0081.628 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0081.658 (0) Table wp_comments: Total expected rows (approximate): 10
+0081.678 (0) Table wp_comments: Rows added in this batch (next record: 18): 10 (uncompressed bytes in this segment=4180) in 0.02 seconds
+0081.700 (0) Table wp_comments: finishing file(s) (2, 1.2 KB)
+0081.726 (0) Table wp_links: Total expected rows (approximate): 0
+0081.741 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.01 seconds
+0081.766 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0081.785 (0) Table wp_postmeta: Total expected rows (approximate): 2326
+0081.901 (0) Table wp_postmeta: Rows added in this batch (next record: 3987): 2276 (uncompressed bytes in this segment=636044) in 0.11 seconds
+0081.927 (0) Table wp_postmeta: finishing file(s) (2, 48.2 KB)
+0081.941 (0) Table wp_posts: Total expected rows (approximate): 243
+0082.018 (0) Table wp_posts: Rows added in this batch (next record: 817): 262 (uncompressed bytes in this segment=320526) in 0.07 seconds
+0082.045 (0) Table wp_posts: finishing file(s) (2, 45.5 KB)
+0082.065 (0) Table wp_term_relationships: Total expected rows (approximate): 196
+0082.089 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 196 (uncompressed bytes in this segment=3560) in 0.02 seconds
+0082.119 (0) Table wp_term_relationships: finishing file(s) (2, 0.8 KB)
+0082.135 (0) Table wp_term_taxonomy: Total expected rows (approximate): 33
+0082.156 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 35): 33 (uncompressed bytes in this segment=2117) in 0.02 seconds
+0082.176 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.7 KB)
+0082.204 (0) Table wp_termmeta: Total expected rows (approximate): 25
+0082.221 (0) Table wp_termmeta: Rows added in this batch (next record: 37): 25 (uncompressed bytes in this segment=1679) in 0.01 seconds
+0082.241 (0) Table wp_termmeta: finishing file(s) (2, 0.6 KB)
+0082.259 (0) Table wp_terms: Total expected rows (approximate): 33
+0082.278 (0) Table wp_terms: Rows added in this batch (next record: 35): 33 (uncompressed bytes in this segment=1812) in 0.02 seconds
+0082.302 (0) Table wp_terms: finishing file(s) (2, 0.7 KB)
+0082.331 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 3
+0082.345 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 3 (uncompressed bytes in this segment=607) in 0.01 seconds
+0082.365 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0082.395 (0) Table wp_wc_product_meta_lookup: Total expected rows (approximate): 73
+0082.418 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 789): 73 (uncompressed bytes in this segment=8256) in 0.02 seconds
+0082.445 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 1.4 KB)
+0082.471 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0082.486 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=659) in 0.01 seconds
+0082.510 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0082.527 (0) Table wp_wc_tax_rate_classes: Total expected rows (approximate): 2
+0082.547 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=800) in 0.02 seconds
+0082.571 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0082.602 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 79
+0082.620 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: 160): 79 (uncompressed bytes in this segment=3789) in 0.01 seconds
+0082.646 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.9 KB)
+0082.678 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0082.691 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=799) in 0.01 seconds
+0082.713 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0082.731 (0) Table wp_nextend2_image_storage: Total expected rows (approximate): 14
+0082.755 (0) Table wp_nextend2_image_storage: Rows added in this batch (next record: 14): 14 (uncompressed bytes in this segment=6242) in 0.02 seconds
+0082.781 (0) Table wp_nextend2_image_storage: finishing file(s) (2, 1 KB)
+0082.800 (0) Table wp_nextend2_section_storage: Total expected rows (approximate): 7
+0082.820 (0) Table wp_nextend2_section_storage: Rows added in this batch (next record: 10139): 7 (uncompressed bytes in this segment=31064) in 0.02 seconds
+0082.841 (0) Table wp_nextend2_section_storage: finishing file(s) (2, 7.1 KB)
+0082.871 (0) Table wp_nextend2_smartslider3_generators: Total expected rows (approximate): 0
+0082.889 (0) Table wp_nextend2_smartslider3_generators: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=702) in 0.01 seconds
+0082.911 (0) Table wp_nextend2_smartslider3_generators: finishing file(s) (2, 0.4 KB)
+0082.927 (0) Table wp_nextend2_smartslider3_sliders: Total expected rows (approximate): 2
+0082.945 (0) Table wp_nextend2_smartslider3_sliders: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=30118) in 0.02 seconds
+0082.972 (0) Table wp_nextend2_smartslider3_sliders: finishing file(s) (2, 4.3 KB)
+0082.990 (0) Table wp_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 0
+0083.004 (0) Table wp_nextend2_smartslider3_sliders_xref: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=726) in 0.01 seconds
+0083.027 (0) Table wp_nextend2_smartslider3_sliders_xref: finishing file(s) (2, 0.4 KB)
+0083.047 (0) Table wp_nextend2_smartslider3_slides: Total expected rows (approximate): 11
+0083.069 (0) Table wp_nextend2_smartslider3_slides: Rows added in this batch (next record: 16): 11 (uncompressed bytes in this segment=36435) in 0.02 seconds
+0083.094 (0) Table wp_nextend2_smartslider3_slides: finishing file(s) (2, 3.2 KB)
+0083.129 (0) Table wp_nf3_action_meta: Total expected rows (approximate): 51
+0083.147 (0) Table wp_nf3_action_meta: Rows added in this batch (next record: 523): 51 (uncompressed bytes in this segment=3831) in 0.01 seconds
+0083.171 (0) Table wp_nf3_action_meta: finishing file(s) (2, 1 KB)
+0083.200 (0) Table wp_nf3_actions: Total expected rows (approximate): 3
+0083.219 (0) Table wp_nf3_actions: Rows added in this batch (next record: 22): 3 (uncompressed bytes in this segment=1062) in 0.02 seconds
+0083.241 (0) Table wp_nf3_actions: finishing file(s) (2, 0.5 KB)
+0083.267 (0) Table wp_nf3_chunks: Total expected rows (approximate): 0
+0083.282 (0) Table wp_nf3_chunks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=444) in 0.01 seconds
+0083.308 (0) Table wp_nf3_chunks: finishing file(s) (2, 0.3 KB)
+0083.332 (0) Table wp_nf3_field_meta: Total expected rows (approximate): 148
+0083.352 (0) Table wp_nf3_field_meta: Rows added in this batch (next record: 1334): 148 (uncompressed bytes in this segment=16012) in 0.02 seconds
+0083.374 (0) Table wp_nf3_field_meta: finishing file(s) (2, 2.3 KB)
+0083.405 (0) Table wp_nf3_fields: Total expected rows (approximate): 8
+0083.425 (0) Table wp_nf3_fields: Rows added in this batch (next record: 31): 8 (uncompressed bytes in this segment=2283) in 0.02 seconds
+0083.449 (0) Table wp_nf3_fields: finishing file(s) (2, 0.8 KB)
+0083.476 (0) Table wp_nf3_form_meta: Total expected rows (approximate): 32
+0083.491 (0) Table wp_nf3_form_meta: Rows added in this batch (next record: 446): 32 (uncompressed bytes in this segment=3223) in 0.01 seconds
+0083.516 (0) Table wp_nf3_form_meta: finishing file(s) (2, 1.1 KB)
+0083.536 (0) Table wp_nf3_forms: Total expected rows (approximate): 0
+0083.552 (0) Table wp_nf3_forms: Rows added in this batch (next record: 6): 1 (uncompressed bytes in this segment=1120) in 0.01 seconds
+0083.576 (0) Table wp_nf3_forms: finishing file(s) (2, 0.5 KB)
+0083.598 (0) Table wp_nf3_object_meta: Total expected rows (approximate): 0
+0083.618 (0) Table wp_nf3_object_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=571) in 0.02 seconds
+0083.645 (0) Table wp_nf3_object_meta: finishing file(s) (2, 0.3 KB)
+0083.675 (0) Table wp_nf3_objects: Total expected rows (approximate): 0
+0083.689 (0) Table wp_nf3_objects: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=617) in 0.01 seconds
+0083.710 (0) Table wp_nf3_objects: finishing file(s) (2, 0.4 KB)
+0083.739 (0) Table wp_nf3_relationships: Total expected rows (approximate): 0
+0083.754 (0) Table wp_nf3_relationships: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=680) in 0.01 seconds
+0083.778 (0) Table wp_nf3_relationships: finishing file(s) (2, 0.4 KB)
+0083.806 (0) Table wp_nf3_upgrades: Total expected rows (approximate): 0
+0083.823 (0) Table wp_nf3_upgrades: Rows added in this batch (next record: 6): 1 (uncompressed bytes in this segment=12674) in 0.01 seconds
+0083.845 (0) Table wp_nf3_upgrades: finishing file(s) (2, 2.4 KB)
+0083.875 (0) Table wp_wc_admin_note_actions: Total expected rows (approximate): 145
+0083.899 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 1914): 145 (uncompressed bytes in this segment=25615) in 0.02 seconds
+0083.923 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 4.5 KB)
+0083.943 (0) Table wp_wc_admin_notes: Total expected rows (approximate): 111
+0083.975 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 111): 111 (uncompressed bytes in this segment=53130) in 0.03 seconds
+0084.000 (0) Table wp_wc_admin_notes: finishing file(s) (2, 11.4 KB)
+0084.016 (0) Table wp_wc_customer_lookup: Total expected rows (approximate): 1
+0084.033 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1435) in 0.01 seconds
+0084.056 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.6 KB)
+0084.084 (0) Table wp_wc_download_log: Total expected rows (approximate): 0
+0084.100 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=918) in 0.01 seconds
+0084.124 (0) Table wp_wc_download_log: finishing file(s) (2, 0.5 KB)
+0084.164 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0084.180 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=711) in 0.01 seconds
+0084.205 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0084.228 (0) Table wp_wc_order_product_lookup: Total expected rows (approximate): 8
+0084.246 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: 17): 8 (uncompressed bytes in this segment=1952) in 0.02 seconds
+0084.270 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.6 KB)
+0084.300 (0) Table wp_wc_order_stats: Total expected rows (approximate): 4
+0084.317 (0) Table wp_wc_order_stats: Rows added in this batch (next record: 802): 4 (uncompressed bytes in this segment=1588) in 0.01 seconds
+0084.341 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.6 KB)
+0084.364 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0084.382 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=789) in 0.02 seconds
+0084.409 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0084.439 (0) Table wp_wc_webhooks: Total expected rows (approximate): 0
+0084.453 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1202) in 0.01 seconds
+0084.477 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0084.509 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0084.525 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1031) in 0.01 seconds
+0084.550 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0084.581 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0084.599 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=939) in 0.01 seconds
+0084.627 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0084.658 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0084.674 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1514) in 0.01 seconds
+0084.698 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0084.730 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0084.743 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=719) in 0.01 seconds
+0084.767 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0084.795 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 8
+0084.809 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: 17): 8 (uncompressed bytes in this segment=1166) in 0.01 seconds
+0084.838 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.5 KB)
+0084.866 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0084.879 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=821) in 0.01 seconds
+0084.902 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0084.921 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 1
+0084.940 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 39): 1 (uncompressed bytes in this segment=2259) in 0.02 seconds
+0084.964 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 0.9 KB)
+0084.990 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0085.005 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=862) in 0.01 seconds
+0085.033 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0085.060 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0085.076 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=765) in 0.01 seconds
+0085.099 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0085.129 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0085.147 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.02 seconds
+0085.187 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.3 KB)
+0085.208 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0085.224 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=836) in 0.01 seconds
+0085.251 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0085.270 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0085.287 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1273) in 0.01 seconds
+0085.314 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+0085.318 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db.gz (line 1816, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0085.325 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_options.table.tmpr2707.gz (1/60): adding to final database dump
+0085.735 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_options.table.gz (2/60): adding to final database dump
+0085.738 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_users.table.tmpr4.gz (3/60): adding to final database dump
+0085.741 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_users.table.gz (4/60): adding to final database dump
+0085.744 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_usermeta.table.tmpr141.gz (5/60): adding to final database dump
+0085.750 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_usermeta.table.gz (6/60): adding to final database dump
+0085.754 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_actionscheduler_actions.table.tmpr39.gz (7/60): adding to final database dump
+0085.758 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_actionscheduler_actions.table.gz (8/60): adding to final database dump
+0085.760 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/60): adding to final database dump
+0085.764 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_actionscheduler_claims.table.gz (10/60): adding to final database dump
+0085.767 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/60): adding to final database dump
+0085.770 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_actionscheduler_groups.table.gz (12/60): adding to final database dump
+0085.773 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_actionscheduler_logs.table.tmpr98.gz (13/60): adding to final database dump
+0085.776 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_actionscheduler_logs.table.gz (14/60): adding to final database dump
+0085.779 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_commentmeta.table.tmpr0.gz (15/60): adding to final database dump
+0085.783 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_commentmeta.table.gz (16/60): adding to final database dump
+0085.787 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_comments.table.tmpr19.gz (17/60): adding to final database dump
+0085.791 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_comments.table.gz (18/60): adding to final database dump
+0085.794 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_links.table.tmpr0.gz (19/60): adding to final database dump
+0085.798 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_links.table.gz (20/60): adding to final database dump
+0085.807 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_postmeta.table.tmpr3988.gz (21/60): adding to final database dump
+0085.834 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_postmeta.table.gz (22/60): adding to final database dump
+0085.837 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_posts.table.tmpr818.gz (23/60): adding to final database dump
+0085.876 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_posts.table.gz (24/60): adding to final database dump
+0085.879 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_term_relationships.table.tmpr100001.gz (25/60): adding to final database dump
+0085.884 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_term_relationships.table.gz (26/60): adding to final database dump
+0085.888 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_term_taxonomy.table.tmpr36.gz (27/60): adding to final database dump
+0085.891 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_term_taxonomy.table.gz (28/60): adding to final database dump
+0085.895 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_termmeta.table.tmpr38.gz (29/60): adding to final database dump
+0085.898 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_termmeta.table.gz (30/60): adding to final database dump
+0085.901 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_terms.table.tmpr36.gz (31/60): adding to final database dump
+0085.904 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_terms.table.gz (32/60): adding to final database dump
+0085.908 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_category_lookup.table.tmpr1001.gz (33/60): adding to final database dump
+0085.911 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_category_lookup.table.gz (34/60): adding to final database dump
+0085.914 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_product_meta_lookup.table.tmpr790.gz (35/60): adding to final database dump
+0085.919 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_product_meta_lookup.table.gz (36/60): adding to final database dump
+0085.922 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_reserved_stock.table.tmpr1.gz (37/60): adding to final database dump
+0085.926 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_reserved_stock.table.gz (38/60): adding to final database dump
+0085.929 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (39/60): adding to final database dump
+0085.932 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_tax_rate_classes.table.gz (40/60): adding to final database dump
+0085.936 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_order_itemmeta.table.tmpr161.gz (41/60): adding to final database dump
+0085.940 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_order_itemmeta.table.gz (42/60): adding to final database dump
+0085.943 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/60): adding to final database dump
+0085.946 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_payment_tokenmeta.table.gz (44/60): adding to final database dump
+0085.949 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nextend2_image_storage.table.tmpr15.gz (45/60): adding to final database dump
+0085.953 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nextend2_image_storage.table.gz (46/60): adding to final database dump
+0085.956 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nextend2_section_storage.table.tmpr10140.gz (47/60): adding to final database dump
+0085.965 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nextend2_section_storage.table.gz (48/60): adding to final database dump
+0085.969 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nextend2_smartslider3_generators.table.tmpr0.gz (49/60): adding to final database dump
+0085.972 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nextend2_smartslider3_generators.table.gz (50/60): adding to final database dump
+0085.976 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nextend2_smartslider3_sliders.table.tmpr3.gz (51/60): adding to final database dump
+0085.981 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nextend2_smartslider3_sliders.table.gz (52/60): adding to final database dump
+0085.984 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nextend2_smartslider3_sliders_xref.table.tmpr1001.gz (53/60): adding to final database dump
+0085.987 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz (54/60): adding to final database dump
+0085.990 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nextend2_smartslider3_slides.table.tmpr17.gz (55/60): adding to final database dump
+0085.996 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nextend2_smartslider3_slides.table.gz (56/60): adding to final database dump
+0086.000 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nf3_action_meta.table.tmpr524.gz (57/60): adding to final database dump
+0086.005 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nf3_action_meta.table.gz (58/60): adding to final database dump
+0086.008 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nf3_actions.table.tmpr23.gz (59/60): adding to final database dump
+0086.012 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nf3_actions.table.gz (60/60): adding to final database dump
+0086.015 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nf3_chunks.table.tmpr0.gz (61/60): adding to final database dump
+0086.018 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nf3_chunks.table.gz (62/60): adding to final database dump
+0086.022 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nf3_field_meta.table.tmpr1335.gz (63/60): adding to final database dump
+0086.027 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nf3_field_meta.table.gz (64/60): adding to final database dump
+0086.030 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nf3_fields.table.tmpr32.gz (65/60): adding to final database dump
+0086.034 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nf3_fields.table.gz (66/60): adding to final database dump
+0086.038 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nf3_form_meta.table.tmpr447.gz (67/60): adding to final database dump
+0086.041 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nf3_form_meta.table.gz (68/60): adding to final database dump
+0086.044 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nf3_forms.table.tmpr7.gz (69/60): adding to final database dump
+0086.049 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nf3_forms.table.gz (70/60): adding to final database dump
+0086.051 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nf3_object_meta.table.tmpr0.gz (71/60): adding to final database dump
+0086.055 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nf3_object_meta.table.gz (72/60): adding to final database dump
+0086.058 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nf3_objects.table.tmpr0.gz (73/60): adding to final database dump
+0086.060 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nf3_objects.table.gz (74/60): adding to final database dump
+0086.063 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nf3_relationships.table.tmpr0.gz (75/60): adding to final database dump
+0086.066 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nf3_relationships.table.gz (76/60): adding to final database dump
+0086.070 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nf3_upgrades.table.tmpr7.gz (77/60): adding to final database dump
+0086.075 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_nf3_upgrades.table.gz (78/60): adding to final database dump
+0086.079 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_admin_note_actions.table.tmpr1915.gz (79/60): adding to final database dump
+0086.084 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_admin_note_actions.table.gz (80/60): adding to final database dump
+0086.088 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_admin_notes.table.tmpr112.gz (81/60): adding to final database dump
+0086.098 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_admin_notes.table.gz (82/60): adding to final database dump
+0086.101 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_customer_lookup.table.tmpr2.gz (83/60): adding to final database dump
+0086.104 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_customer_lookup.table.gz (84/60): adding to final database dump
+0086.107 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_download_log.table.tmpr0.gz (85/60): adding to final database dump
+0086.113 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_download_log.table.gz (86/60): adding to final database dump
+0086.117 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (87/60): adding to final database dump
+0086.121 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_order_coupon_lookup.table.gz (88/60): adding to final database dump
+0086.124 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_order_product_lookup.table.tmpr18.gz (89/60): adding to final database dump
+0086.127 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_order_product_lookup.table.gz (90/60): adding to final database dump
+0086.129 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_order_stats.table.tmpr803.gz (91/60): adding to final database dump
+0086.133 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_order_stats.table.gz (92/60): adding to final database dump
+0086.136 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (93/60): adding to final database dump
+0086.138 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_order_tax_lookup.table.gz (94/60): adding to final database dump
+0086.141 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_webhooks.table.tmpr0.gz (95/60): adding to final database dump
+0086.144 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_wc_webhooks.table.gz (96/60): adding to final database dump
+0086.148 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (97/60): adding to final database dump
+0086.151 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_api_keys.table.gz (98/60): adding to final database dump
+0086.154 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (99/60): adding to final database dump
+0086.159 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_attribute_taxonomies.table.gz (100/60): adding to final database dump
+0086.162 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (101/60): adding to final database dump
+0086.166 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (102/60): adding to final database dump
+0086.169 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_log.table.tmpr0.gz (103/60): adding to final database dump
+0086.180 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_log.table.gz (104/60): adding to final database dump
+0086.185 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_order_items.table.tmpr18.gz (105/60): adding to final database dump
+0086.190 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_order_items.table.gz (106/60): adding to final database dump
+0086.194 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (107/60): adding to final database dump
+0086.198 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_payment_tokens.table.gz (108/60): adding to final database dump
+0086.201 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_sessions.table.tmpr40.gz (109/60): adding to final database dump
+0086.204 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_sessions.table.gz (110/60): adding to final database dump
+0086.207 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr0.gz (111/60): adding to final database dump
+0086.211 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_shipping_zone_locations.table.gz (112/60): adding to final database dump
+0086.214 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr0.gz (113/60): adding to final database dump
+0086.219 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_shipping_zone_methods.table.gz (114/60): adding to final database dump
+0086.223 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_shipping_zones.table.tmpr0.gz (115/60): adding to final database dump
+0086.226 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_shipping_zones.table.gz (116/60): adding to final database dump
+0086.229 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (117/60): adding to final database dump
+0086.232 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_tax_rate_locations.table.gz (118/60): adding to final database dump
+0086.236 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (119/60): adding to final database dump
+0086.239 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db-table-wp_woocommerce_tax_rates.table.gz (120/60): adding to final database dump
+0086.299 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db.gz: finished writing out complete database file (696 KB)
+0086.519 (0) Total database tables backed up: 60 (backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db.gz, size: 727462, sha1: b3b657629067421668e110111993521648494ad3, sha256: b1d2f4e714e3505624e478d287c631e703d30600868d74d3ef47de168e3059bd)
+0086.533 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0086.536 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0086.538 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0086.542 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-others.zip: others: This file has not yet been successfully uploaded: will queue
+0086.546 (0) backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db.gz: db: This file has not yet been successfully uploaded: will queue
+0086.549 (0) Saving backup history. Total backup size: 91.9 MB
+0086.556 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0086.563 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0086.566 (0) No remote despatch: user chose no remote backup service
+0086.568 (0) Recording as successfully uploaded: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-plugins.zip
+0086.574 (0) Recording as successfully uploaded: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-themes.zip
+0086.580 (0) Recording as successfully uploaded: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-uploads.zip
+0086.585 (0) Recording as successfully uploaded: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-others.zip
+0086.590 (0) Recording as successfully uploaded: backup_2024-02-14-1517_WORLD_OF_FURNITURE_ebd0c8052294-db.gz
+0086.598 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0086.602 (0) Number of backup sets in history: 2; groups (db): 1
+0086.604 (0) Examining (for databases) backup set with group_id=0, nonce=ebd0c8052294, datestamp=1707923873 (Feb 14 2024 15:17:53)
+0086.606 (0) This backup set is the backup set just made, so will not be deleted.
+0086.606 (0) Examining (for databases) backup set with group_id=0, nonce=c573d4bac43f, datestamp=1707675009 (Feb 11 2024 18:10:09)
+0086.606 (0) This backup set (1707675009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0086.606 (0) Number of backup sets in history: 2; groups (files): 1
+0086.609 (0) Examining (for files) backup set with nonce=ebd0c8052294, datestamp=1707923873 (Feb 14 2024 15:17:53)
+0086.609 (0) This backup set is the backup set just made, so will not be deleted.
+0086.611 (0) This backup set is the backup set just made, so will not be deleted.
+0086.611 (0) This backup set is the backup set just made, so will not be deleted.
+0086.612 (0) This backup set is the backup set just made, so will not be deleted.
+0086.612 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0086.614 (0) Examining (for files) backup set with nonce=c573d4bac43f, datestamp=1707675009 (Feb 11 2024 18:10:09)
+0086.614 (0) This backup set (1707675009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0086.614 (0) This backup set (1707675009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0086.614 (0) This backup set (1707675009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0086.614 (0) This backup set (1707675009) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0086.614 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0086.615 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0086.620 (0) Resume backup (ebd0c8052294, 0): finish run
+0086.626 (0) Decremented the semaphore (fd) by 1
+0086.629 (0) Semaphore (fd) unlocked
+0086.632 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0086.641 (0) No email will/can be sent - the user has not configured an email address.
+0086.643 (0) The backup apparently succeeded and is now complete
+0000.000 (1) Opened log file at time: Wed, 14 Feb 2024 15:24:49 +0000 on http://localhost/wordpress
+0000.004 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.56 WP: 6.4.3 PHP: 8.0.12 (apache2handler, Windows NT LAPTOP-N2OMCFEU 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.21-MariaDB WPLANG: en_US Server: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/8.0.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 70.5M | 26M) multisite: N openssl: OpenSSL 1.1.1l  24 Aug 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.006 (1) Free space on disk containing Updraft's temporary directory: 104873.4 MB
+0000.011 (1) Requesting backup semaphore lock (ebd0c8052294)
+0000.016 (1) [Lock option (updraft_lock_ebd0c8052294, wp_options) was created in the database] debug
+0000.023 (1) [Lock (updraft_lock_ebd0c8052294, wp_options) acquired after initialising the database] info
+0000.025 (1) This backup task (ebd0c8052294) is either complete or began over 2 days ago: ending (1707924289.1392, ) (existing jobdata keys: )

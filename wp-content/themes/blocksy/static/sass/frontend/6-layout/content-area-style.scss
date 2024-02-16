@@ -1,0 +1,6 @@
+[class*="ct-container"] > article {
+	--has-background: var(--has-boxed);
+	box-shadow: var(--has-boxed, var(--box-shadow));
+	border-radius: var(--has-boxed, var(--border-radius));
+	padding: var(--has-boxed, var(--boxed-content-spacing));
+}
